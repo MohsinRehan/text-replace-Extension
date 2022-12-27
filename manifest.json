@@ -1,0 +1,24 @@
+{
+    "manifest_version" : 3,
+    "name" :" Text Replacer",
+    "description":"text replace in browser",
+    "version": "0.1",
+    "content_scripts":[
+       
+        {
+            "matches" : ["<all_urls>"],
+            "js": ["content.js"]
+          
+        }
+    ],
+        "background" : {
+            "service_worker": "background.js"
+        },
+        "action" : 
+        {
+            "default_popup": "index.html"
+           
+        }
+
+    
+}

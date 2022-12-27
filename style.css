@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.wrapper {
+    width: 250px;
+    height: 400px;
+    background-color: black;
+    color: white;
+}
+
+.Main h1{
+    text-align: center;
+    padding-top: 30px;
+    color: yellow;
+}
+.arrData{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+.arrData p{
+    font-size: 20px;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 78px;
+}
+.btn button{
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700px;
+    cursor: pointer;
+}
